@@ -30,10 +30,7 @@ function onCreatePromise(event) {
   let delayStep = Number(refs.step.value);
   let amount = Number(refs.amount.value);
   
-  console.log(delay);
-  console.log(delayStep);
-  console.log(amount);
-  
+
    const timerTimeout = setTimeout(() => {
 
     position += 1; 
